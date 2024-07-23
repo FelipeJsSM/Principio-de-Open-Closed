@@ -68,7 +68,7 @@ class Program
         var person = new Student { Name = "Pedro" };
 
         var online = new OnlineCourse { CourseId = 201, Title = "Mineria de Datos" };
-        var offline = new OfflineCourse { CourseId = 202, Title = "Programación 1" };
+        var offline = new OfflineCourse { CourseId = 202, Title = "Programación 2" };
 
         var hybridScience = new HybridCourse();
         hybridScience.AddOnlineCourse(online);
